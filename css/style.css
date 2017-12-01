@@ -1,0 +1,177 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #848484;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.container {
+    max-width: 1176px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-icon, .abilities-icon, .user-list, .contact-icon, .footer-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+h2 {
+    color: #222222;
+    font-family: "Raleway - Semi Bold", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+header {
+    background: url("../img/header-img.png")no-repeat scroll center/cover;
+    border-top: 11px solid #2ecc71;
+    padding-top: 95px;
+}
+
+header .container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-header-icon {
+    padding: 72px 118px 176px;
+    max-height: 505px;
+}
+
+.logo {
+    padding-bottom: 12px;
+}
+
+.logo a {
+    width: 183px;
+    height: 83px;
+}
+
+.logo img {
+    max-width: 183px;
+}
+
+.logo-header-icon p {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.header-icon {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-icon li {
+    width: 53px;
+    height: 53px;
+    margin-right: 14px;
+    border-radius: 50%;
+    background-color: #030303;
+    display: flex;
+    justify-content: center;
+    transition: 0.7s;
+}
+
+.header-icon li:hover {
+    background-color: #2ecc71;
+    transition: 0.7s;
+}
+
+.header-icon a {
+    width: 53px;
+    height: auto;
+    padding: 12px;
+}
+
+.header-icon img {
+    max-width: 26px;
+}
+
+.img-header-hand {
+    margin-right: 48px;
+    max-height: 505px;
+    width: auto;
+}
+
+.img-header-hand img {
+    min-height: 505px;
+    width: auto;
+}
+
+.abilities {
+    padding: 60px 0 58px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.abilities-icon li {
+    float: left;
+    width: 33.33%;
+    margin: 0 25px;
+    max-width: 313px;
+}
+
+.background-abilities-icon {
+    background-color: #2ecc71;
+    border-radius: 50%;
+    width: 98px;
+    height: 98px;
+    padding: 25px;
+    display: inline-block;
+}
+
+.background-abilities-icon img {
+    max-width: 48px;
+    height: 48px;
+}
+
+.abilities-icon p {
+     color: #848484;
+    transition: 0.7s;
+}
+
+.abilities-icon p:hover {
+    color: #2ecc71;
+    transition: 0.7s;
+}
+
+.abilities-icon h2 {
+    margin: 30px 0;
+    transition: 0.7s;
+}
+
+.abilities-icon h2:hover {
+    color: #2ecc71;
+    transition: 0.7s;
+}
+
+.get-notified {
+    background-color: #e3e3e3;
+    padding: 60px 0;
+}
