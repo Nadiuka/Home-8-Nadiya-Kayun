@@ -133,8 +133,7 @@ header .container {
 .abilities-icon li {
     float: left;
     width: 33.33%;
-    margin: 0 25px;
-    max-width: 313px;
+    padding: 0 25px;
 }
 
 .background-abilities-icon {
@@ -175,3 +174,144 @@ header .container {
     background-color: #e3e3e3;
     padding: 60px 0;
 }
+
+.get-notified .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    padding: 0 100px 0 10px;
+    width: 50%;
+}
+
+.video {
+    padding: 0 10px;
+    width: 50%;
+}
+
+form {
+    display: inline-block;
+    min-width: 446px;
+}
+
+input[type="email"], input[type="submit"] {
+    border: 1px solid #c8c8c8;
+    background-color: #ffffff;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    vertical-align: bottom;
+}
+
+input[type="email"] {
+    padding: 22px 165px 20px 26px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    height: 56px;
+    border-radius: 25px;
+}
+
+input[type="submit"] {
+    background-color: #2ecc71;
+    color: #ffffff;
+    font-family: "Raleway - Semi Bold", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 19px 40px 15px 38px;
+    margin-left: -141px;
+    border-radius: 0 25px 25px 0;
+    height: 56px;
+    transition: 0.7s;
+}
+
+input[type="submit"]:hover {
+    background-color: darkgreen;
+    transition: 0.7s;
+}
+
+.video iframe {
+    max-width: 100%;
+}
+
+.users {
+    padding: 60px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+blockquote {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px;
+}
+
+blockquote:before, blockquote:after {
+    content: '"';
+    display: inline;
+}
+
+h3 {
+    color: #2e2e2e;
+    font-family: "Raleway - Semi Bold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.user-list {
+    padding-bottom: 40px;
+}
+
+.user-list li {
+    float: left;
+    padding: 5px;
+    width: 4.76%;
+}
+
+.user-list img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.user-list img:hover {
+    background: url("../img/overlay.png") no-repeat scroll center/cover;
+    opacity: 0.6;
+}
+
+.contact-icon {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.contact-icon li {
+    margin: 5px;
+    background-color: #c5c5c5;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    transition: 0.7s;
+}
+
+.contact-icon li:hover {
+    background-color: #2ecc71;
+    transition: 0.7s;
+}
+
+.contact-icon a {
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
+.contact-icon img {
+    max-width: 20px;
+}
+
+
+
