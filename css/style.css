@@ -277,7 +277,6 @@ h3 {
 }
 
 .user-list img:hover {
-    background: url("../img/overlay.png") no-repeat scroll center/cover;
     opacity: 0.6;
 }
 
